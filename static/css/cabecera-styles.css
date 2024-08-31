@@ -1,0 +1,50 @@
+* {
+    margin: 0px;
+    padding: 0px;
+}
+
+body {
+    background-color:(navy);
+    margin: 15px;
+}
+
+header{
+    background-color: navy;
+    width: 90%;
+    height: 120px;
+    margin-left: 5%;
+    border-radius: 40px;
+    box-shadow: 12px 12px 16px #ffffff;
+}
+
+header h1{
+    color:rgb(184, 216, 69);
+    text-align: center;
+    line-height: 70px;
+    font-size: 35px;
+    text-shadow: 6px 6px 16px whitesmoke;
+}
+
+header ul{
+    display: flex;
+    float: left;
+}
+
+header ul li{
+    margin-left: 50%;
+    list-style-type: none;
+}
+
+header ul li:hover{
+    background-color: rgb(231, 174, 15);
+}
+
+header ul li a{
+    text-decoration: none;
+    color: (white);
+    line-height: 30px;
+}
+
+header ul li a:hover{
+    color: black;
+}
